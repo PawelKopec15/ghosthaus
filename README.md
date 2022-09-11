@@ -1,6 +1,6 @@
-Ghosthaus ver 1.0
-Paweł Kopeć
-11 September 2022
+#### Ghosthaus ver 1.0
+#### Paweł Kopeć
+#### 11 September 2022
 
 --------------------------------------------------------------------------------
 
@@ -19,6 +19,7 @@ Paweł Kopeć
 - Improved README (as always)
 - Switchable floors have a new look
 
+--------------------------------------------------------------------------------
 note: these versions are milestones and not actual previous commits, the first
 commit is version 1.0
 
@@ -128,6 +129,7 @@ g++ main.cpp includes/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17
 
 Once compiled, an executable ghostaus.x will be ready to be run.
 
+--------------------------------------------------------------------------------
 -> Terminal info:
 
 Terminal of at least 80 columns by 24 rows is required.
@@ -154,6 +156,7 @@ This game uses bold version of color black to represent color gray, on some
 terminals it looks fine but on others it might be better to change how color
 gray looks in game setting on the title screen.
 
+--------------------------------------------------------------------------------
 -> Run flags:
 
 There are optional run flags the game recognizes:
@@ -164,6 +167,7 @@ debug (displays some info on top of the screen and grands access to some
 no delay (cancels a slight delay that happens every turn before input):
   -nd or -nodelay
 
+--------------------------------------------------------------------------------
 -> Gameplay info:
 
 The game is about walking through various levels, solving simple puzzles,
@@ -171,6 +175,7 @@ collecting items to progress further or to gain score and reaching the exit
 on each level of an episode.
 Avoid mighty guards and the spooky ghost or suffer the consequences.
 
+--------------------------------------------------------------------------------
 -> Game controls:
 
 Arrow keys  movement, interacting with environment, selecting things
@@ -185,6 +190,7 @@ F10         exit the game
 Space       skip turn (when debug is enabled)
 :           enter command mode (when debug is enabled)
 
+--------------------------------------------------------------------------------
 -> Debug commands:
 
 :give <item>
