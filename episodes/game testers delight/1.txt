@@ -1,0 +1,64 @@
+#sign 1
+Hello I am a test sign 1
+#sign 2
+Hello I am a test sign 2
+
+#level_end_message
+You finished the test level, wow
+
+#death_message
+If you wanted to test dying, well done!
+
+#floor
+COLOR_MAGENTA
+
+#width
+26
+#height
+30
+
+#guard_killmessage 1
+I am represented by char 'a'
+
+#guard_direction 4
+-2
+-1
+
+#guard_killmessage 4
+Wooh! I am a fearsome rook piece from chess!
+
+#ghost
+1
+
+#data
+##########################
+##########################
+##########################
+############E#############
+####     ggh hii      ####
+####  ##          ##  ####
+####  #   c    d   # b####
+####  #            #  ####
+####  ##    a     ##@@####
+####             _ !  ####
+#### M N        0_    ####
+####      K A L  _____####
+#### M N 1  F  2      ####
+####        P         ####
+####      CC SS       ####
+####                  ####
+####                  ####
+####                  ####
+####                  ####
+####                  ####
+####                  ####
+####                  ####
+####                  ####
+##########            ####
+##########            ####
+##########  G         ####
+##########            ####
+##########################
+##########################
+##########################
+##########################

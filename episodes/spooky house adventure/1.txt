@@ -1,0 +1,48 @@
+#sign 1
+Danger ahead! Beware of the ghost!
+#sign 2
+Oh boy, I love my key that unlocks a green door, hope nobody steals it
+
+#death_message
+Okay, how did this happen?
+
+#width
+38
+#height
+34
+
+#data
+T T T T T T ###############rrrrrrrrrrr
+T T T T T T ###############rrrrrrrrrrr
+T T T T T T ###############rrrrrrrrrrr
+T T T T T T ###############rrrrrrrrrrr
+T T T T T T ###############rrrrrrrrrrr
+T T T T T T ######   ######rrrrrrrrrrr
+ T T T T T T#pppp# E #pppp#rrrrrrrrrr
+T T T T T T #p~~p#   #p~~p#rrrrrrrrrr
+ T T T T T T#p~~p#   #p~~p#rrrrrrrrrr
+T T T T T T #pppp#   #pppp#rrrrrrrrrr
+ T T T T T T######   ######rrrrrrrrrr
+T T T T T T ,,,,,##M##,,,,rrrrrrrrrrr
+ T T T T T T       .1   rrrrrrrrrrrrr
+T T T T T T F##### .   rrrwwwrrrrrrrr
+ T T T T T T #2 K# .  rrwwwwwwrrrrrrr
+T T T T T T  #  `# .  rwwwwwwwrrrrrrr
+ T T T T T T #D### . rrwwwwwwwwwrrrrr
+T T T T T T        . rwwwwwwwwwwwrrrr
+ T T T T T   + + + . rrwwwwwwwwwwrrrr
+T T T T T T  . . . .  rrwwwwwwwwwrrrr
+ T T T T T T + + +     rrrwwwwwww.rrr
+T T T T T T  . . . P     rrwwwwww.rrr
+ T T T T T   + + + `   rhrrrwwww..rrr
+T T T T T T  . . .   rfrrrrrrw...rrrr
+ T T T T T T         rfrrrrrrrrrfrrrr
+T T T T T T T T T T T frrrrrfrrrfrrrr
+ T T T T T T T T T T Tfrrrrrfrrrfrrrr
+T T T T T T T T T T T frrrrrfrrrfrrrr
+ T T T T T T T TrTrTrTfrfffffrrrfrrrr
+T T T T T T T+Tffffffffrrrfrrrrrfrrrr
+ T T T T T T . r rrfrrrrrrfrrrrrfrrrr
+T T T T T T T T T rffffffffffffffrrrr
+ T T T T T T T T Trrrrrrrrrrrrrrrrrrr
+T TrTrTrTrTrrrTrTrrrrrrrrrrrrrrrrrrrr
