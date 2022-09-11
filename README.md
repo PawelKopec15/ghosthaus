@@ -117,91 +117,102 @@ commit is version 1.0
 -> Compiling the game
 
 The game must be compiled with -lncursesw linker flag, which requires ncurses
-to be installed as it is not a default library
+to be installed as it is not a default library  
 Also the c++ version has to be set to c++ 17 or newer
 
-Makefile:
-make spooky - to compile the game
-make clean  - to erase the compiled game
+Makefile:  
+make spooky - to compile the game  
+make clean  - to erase the compiled game  
 
-Copypaste:
-g++ main.cpp includes/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17
+Copypaste:  
+g++ main.cpp includes/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17  
 
 Once compiled, an executable ghostaus.x will be ready to be run.
 
 --------------------------------------------------------------------------------
 -> Terminal info:
 
-Terminal of at least 80 columns by 24 rows is required.
-(preferably about 120 columns by 34 rows for best experience)
+Terminal of at least 80 columns by 24 rows is required.  
+(preferably about 120 columns by 34 rows for best experience)  
 Colored terminal is recommended. It will run on a non colored one, but the
-experience will be far from desirable.
-If game fails to set font to unicode it won't run.
+experience will be far from desirable.  
+If game fails to set font to unicode it won't run.  
 Resizing terminal window is not a good idea, although the game corrects itself
 when exiting the title screen to start the game, so you can resize the terminal
 just before pressing NEW GAME, selecting an episode or going back to title
 screen.
 
-Game has been developed in WSL, tested in WSL and Fedora.
+Game has been developed in WSL, tested in WSL and Fedora.  
 Should any compatibility issues surface let me know.
 
 The game should be run from the folder it's in.
 
-Recommended fonts:
+Recommended fonts:  
 On WSL- Consolas and (maybe) Courier New are the best fonts for everything to
 display properly.
 Consolas looks very nice when bold, but not Courier New.
 
 This game uses bold version of color black to represent color gray, on some
 terminals it looks fine but on others it might be better to change how color
-gray looks in game setting on the title screen.
+gray looks in game settings on the title screen.
 
 --------------------------------------------------------------------------------
 -> Run flags:
 
-There are optional run flags the game recognizes:
+There are optional run flags the game recognizes:  
 
 debug (displays some info on top of the screen and grands access to some
-       handy debug features):
-  -d or -debug
-no delay (cancels a slight delay that happens every turn before input):
-  -nd or -nodelay
+       handy debug features):  
+  -d or -debug   
+no delay (cancels a slight delay that happens every turn before input): <br>
+  -nd or -nodelay   
 
 --------------------------------------------------------------------------------
 -> Gameplay info:
 
 The game is about walking through various levels, solving simple puzzles,
 collecting items to progress further or to gain score and reaching the exit
-on each level of an episode.
+on each level of an episode.  
 Avoid mighty guards and the spooky ghost or suffer the consequences.
 
 --------------------------------------------------------------------------------
 -> Game controls:
 
-Arrow keys  movement, interacting with environment, selecting things
-Enter       confirming things
-Page Up     inventory previous page
-Page Down   inventory next page
-D           dropping items
-C           using the camera's flash
-S           using the stopwatch
-F7          exit to title screen
-F10         exit the game
-Space       skip turn (when debug is enabled)
-:           enter command mode (when debug is enabled)
+**Arrow keys**  
+movement, interacting with environment, selecting things  
+**Enter**       
+confirming things  
+**Page Up**     
+inventory previous page  
+**Page Down**   
+inventory next page  
+**D**           
+dropping items  
+**C**           
+using the camera's flash  
+**S**           
+using the stopwatch  
+**F7**          
+exit to title screen  
+**F10**         
+exit the game  
+**Space**       
+skip turn (when debug is enabled)  
+**:**           
+enter command mode (when debug is enabled)  
 
 --------------------------------------------------------------------------------
 -> Debug commands:
 
-:give <item>
-  where <item> can be:
+**:give item**  
+  where item can be:
   green key, red key, flashlight, camera, super flashlight, skeleton key
-  stopwatch, blue gem, red gem, green gem
-:light up, :light down
-  (manipulates the field of view)
-:wq, :q!, :quit, :exit
-  (exits the game)
-:die
-  (does what you expect)
-:invincible
+  stopwatch, blue gem, red gem, green gem  
+**:light up**, **:light down**  
+  (manipulates the field of view)  
+**:wq**, **:q!**, **:quit**, **:exit**  
+  (exits the game)     
+**:die**  
+  (does what you expect)  
+**:invincible**  
   (toggles invincibility, you can't be killed by an enemy if invincible)
