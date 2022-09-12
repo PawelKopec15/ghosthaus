@@ -18,7 +18,7 @@ Longer messages won't crash the game, but it'll look stupid.
                               CREATING EPISODES
 ################################################################################
 
-Creating a level comes down to creating a special text file with .ep file
+Creating an episode comes down to creating a special text file with .ep file
 extension. This way the game knows to treat it in a special way.
 The file should be located in /episodes/ folder, relative to main executable.
 
@@ -53,7 +53,7 @@ Barely seeing anything, you gather strength to get up...
 ================================================================================
 
 The code responsible for reading the .ep file is not foolproof, so be careful to
-write it carefully. No line breaks or leading spaces are tolerated.
+write it carefully. No line breaks or unnecesary spaces are tolerated.
 However, given how little the file contains, who cares.
 
 Once you have your .ep file ready, you can select your episode from the title
@@ -76,7 +76,7 @@ Each level is represented as a normal (.txt) text file, which's name is the
 number of the level (1.txt, 2.txt, 3.txt, and so on).
 The structure of the level file has a "head" and a "body" of sorts.
 
-The "head" part contains parameters and custom settings for the level, from now
+The "head part" contains parameters and custom settings for the level, from now
 on i will call them #.
 All # have a structure like this
 
@@ -129,14 +129,14 @@ And here are all possible # and their arguments:
 			(instead of #data you can write ##data)
 
 
-As a general rule, every # in the "head" part can be put here in any order,
+As a general rule, every # in the "head part" can be put here in any order,
 they can be separated by line breaks for better readability or may just contain
 random garbage between them, as any line that doesn't match any # or is not
 directly below it will be ignored
 (however, there cannot be any line breaks or anything between a # and it's
 values).
 An exception to this rule is #data, which must be the last # and is the
-beginning of the "body" part.
+beginning of the "body part".
 
 Also, all # are optional, except for #width, #height and #data.
 
@@ -145,7 +145,7 @@ enlarged by the program depending on how big your terminal window is.
 
 There are four possible guard enemy types to override:
 1 - red guard that starts in frame 0, goes left and has mode 0.
-    "Wham! You are dead!"
+    	"Wham! You are dead!"
 2 - red guard that starts in frame 1, goes up and has mode 0.
 	"Wham! You are done for!"
 3 - green guard that starts in frame 0, goes left and has mode 2.
@@ -155,7 +155,7 @@ There are four possible guard enemy types to override:
 
 There are also nine signs to set messages for, by default they have no message.
 
-As an example, this is how /spooky house adventure/1.txt body part looks like:
+As an example, this is how /spooky house adventure/1.txt "head part" looks like:
 ================================================================================
 #sign 1
 Danger ahead! Beware of the ghost!
@@ -174,7 +174,7 @@ Okay, how did this happen?
 ================================================================================
 
 Now, for the "body part"
-The "body" part begins after #data and is the last part of .txt file. No # will be
+The "body part" begins after #data and is the last part of .txt file. No # will be
 accepted after #data. This is where the level layout lies.
 Once the program finds #data, it will try to fetch y lines of x characters,
 where y and x have been previously set by #height and #width. If there are less
