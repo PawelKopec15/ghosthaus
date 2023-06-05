@@ -1,7 +1,7 @@
 #sign 1
-Danger ahead! Beware of the ghost!
+"Danger ahead! Beware of the ghost!"
 #sign 2
-Oh boy, I love my key that unlocks a green door, hope nobody steals it
+"Oh boy, I love my key that unlocks a green door, hope nobody steals it"
 
 #death_message
 Okay, how did this happen?

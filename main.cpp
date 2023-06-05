@@ -1,4 +1,4 @@
-#include "includes/gh_ghosthaus.h"
+#include "includes/ghosthaus.hpp"
 
 int main(int argc, char const *argv[])
 {
