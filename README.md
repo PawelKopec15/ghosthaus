@@ -1,11 +1,12 @@
 # Ghosthaus ver 1.1
 
+#### IMPORTANT NOTE: I am currently developing version 1.2, rewriting most of the code and adding a lot of improvements. <br> To see progress on the new version go [to this branch](https://github.com/PawelKopec15/ghosthaus/tree/version-1.2).
+
 <br>
 
 ![Screenshot of the title screen](/media/image1.png)
 
-##### My goal and self imposed challenge was to create the best video game I realistically could using ncurses.h library.
-##### This was primarily developed as a project for my university C++ course.<br><br>
+##### My goal and self imposed challenge was to create the best video game I realistically could using ncurses.h library. <br> This was primarily developed as a project for my university C++ course.<br><br>
 
 ![Short footage of the beginning of the game](/media/movie1.gif)
 
@@ -17,11 +18,13 @@
 ## Gameplay info:
 
 <br>
-In this simple game you travel through various levels, solving simple puzzles, collecting items to progress further or to gain score and try to reach the exit on each level of an episode.   
+In this simple game you travel through various levels, solving simple puzzles, collecting items to progress further or to gain score and try to reach the exit on each level of an episode.
+<br>
 
 ![Random screenshot of the game](/media/image2.png)
 
 Avoid mighty guards and the spooky ghost or suffer the consequences.
+<br>
 
 ![Footage of ghost encounter](/media/movie2.gif)
 
@@ -93,7 +96,7 @@ Cancels a slight delay that happens every turn before input, so  you can zoom th
 
 ----------------------------------------------------------------------------
 ----
-### Game controls:
+## Game controls:
 
 **Arrow keys**  
 movement, interacting with environment, selecting things  
@@ -163,7 +166,7 @@ enter command mode (when debug is enabled)
 - Switchable floors have a new look
 
 --------------------------------------------------------------------------------
-Note: versions below 1.0 are actually milestones and not actual previous commits. I made them to break up the task of creating the game into smaller pieces and to get some feedback from friends.
+Note: versions below 1.0 are actually milestones and not previous commits. I made them to break up the task of creating the game into smaller pieces and to get some feedback from my friends.
 
 ### [beta 2] - 2022-09-06
 #### Added
