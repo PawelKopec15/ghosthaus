@@ -1,27 +1,7 @@
 [
     {
-        "command": "g++ main.cpp includes/*.cpp includes/class/*.cpp includes/logic/*.cpp includes/singleton/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17",
+        "command": "g++ src/ghosthaus.cpp -o ghosthaus.x -O2 -Wall -lncursesw -std=c++17",
         "directory": "/root/cpp/ncurses2/ghosthaus/ghosthaus",
-        "file": "/root/cpp/ncurses2/ghosthaus/ghosthaus/main.cpp"
-    },
-    {
-        "command": "g++ main.cpp includes/*.cpp includes/class/*.cpp includes/logic/*.cpp includes/singleton/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17",
-        "directory": "/root/cpp/ncurses2/ghosthaus/ghosthaus",
-        "file": "/root/cpp/ncurses2/ghosthaus/ghosthaus/includes/*.cpp"
-    },
-    {
-        "command": "g++ main.cpp includes/*.cpp includes/class/*.cpp includes/logic/*.cpp includes/singleton/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17",
-        "directory": "/root/cpp/ncurses2/ghosthaus/ghosthaus",
-        "file": "/root/cpp/ncurses2/ghosthaus/ghosthaus/includes/class/*.cpp"
-    },
-    {
-        "command": "g++ main.cpp includes/*.cpp includes/class/*.cpp includes/logic/*.cpp includes/singleton/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17",
-        "directory": "/root/cpp/ncurses2/ghosthaus/ghosthaus",
-        "file": "/root/cpp/ncurses2/ghosthaus/ghosthaus/includes/logic/*.cpp"
-    },
-    {
-        "command": "g++ main.cpp includes/*.cpp includes/class/*.cpp includes/logic/*.cpp includes/singleton/*.cpp -o ghosthaus.x -Wall -lncursesw -std=c++17",
-        "directory": "/root/cpp/ncurses2/ghosthaus/ghosthaus",
-        "file": "/root/cpp/ncurses2/ghosthaus/ghosthaus/includes/singleton/*.cpp"
+        "file": "/root/cpp/ncurses2/ghosthaus/ghosthaus/src/ghosthaus.cpp"
     }
 ]

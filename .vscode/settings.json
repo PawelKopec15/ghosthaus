@@ -2,6 +2,7 @@
     "cSpell.words": [
         "currentmes",
         "ghosthaus",
+        "haus",
         "messageprint",
         "respawn",
         "targethandler",
@@ -64,6 +65,7 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "csignal": "cpp"
     }
 }
