@@ -1,12 +1,10 @@
 # Ghosthaus ver 1.1
 
-#### IMPORTANT NOTE: I am currently developing version 1.2, rewriting most of the code and adding a lot of improvements. <br> To see progress on the new version go [to this branch](https://github.com/PawelKopec15/ghosthaus/tree/version-1.2).
-
 <br>
 
 ![Screenshot of the title screen](/media/image1.png)
 
-##### My goal and self imposed challenge was to create the best video game I realistically could using ncurses.h library. <br> This was primarily developed as a project for my university C++ course.<br><br>
+##### My goal and self imposed challenge of this project was to create the best looking video game I realistically could using ncurses.h library.<br>This was primarily developed as a project for my university C++ course.<br><br>
 
 ![Short footage of the beginning of the game](/media/movie1.gif)
 
@@ -29,6 +27,16 @@ Avoid mighty guards and the spooky ghost or suffer the consequences.
 ![Footage of ghost encounter](/media/movie2.gif)
 
 ----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+## Running the precompiled game
+
+<br>
+If You don't want to compile the game, the precompiled ghosthaus.x is here
+ready to be run.
+<br>
+The game executable and "episodes" folder must be in the same directory.
 
 ## Compiling the game
 
@@ -67,16 +75,18 @@ screen.
 Game has been developed in WSL Ubuntu, tested in WSL Ubuntu and Fedora.  
 Should any compatibility issues surface let me know.
 
-The game should be run from the folder it's in.
-
 Recommended fonts:  
 On WSL- Consolas and (maybe) Courier New are the best fonts for everything to
 display properly.
 Consolas looks very nice when bold, unlike Courier New.
 
-This game uses bold version of color black to represent color gray, on some
-terminals it looks fine but on others it might be better to change how color
-gray looks in game settings on the title screen.
+This game uses bold version of color black to represent the color gray, which
+is being used very often here. On most terminals it looks as intended, however
+some may be set to represent bold black as just... bolder version of black.
+<br>
+To fix it, You can either try to change the terminal emulator settings to
+display bold black differently, or You can change all apprearances of color
+gray to cyan in the game's settings.
 
 --------------------------------------------------------------------------------
 ## Run flags:
